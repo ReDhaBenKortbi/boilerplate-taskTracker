@@ -3,20 +3,26 @@
 	"version": "0.1.0",
 	"description": "A REST API project, part of Free Code Camp's curriculum",
 	"main": "index.js",
+	"type": "module",
+	"author": "ReDhaBenKortbi",
 	"scripts": {
-		"start": "node index.js"
+		"start": "node --watch index.js"
 	},
 	"dependencies": {
+		"cors": "^2.8.5",
 		"dotenv": "^8.2.0",
 		"express": "^4.16.4",
-		"cors": "^2.8.5"
+		"mongoose": "^8.7.2"
 	},
 	"repository": {
-		"url": "https://github.com/freeCodeCamp/boilerplate-project-exercisetracker"
+		"url": "https://github.com/freeCodeCamp/boilerplate-project-exercisetracker",
+		"type": "git"
 	},
 	"license": "MIT",
 	"keywords": [
 		"node",
-		"express"
+		"express",
+		"mongodb",
+		"mongoose"
 	]
 }
